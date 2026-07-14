@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a5196e7a-0deb-499c-b82a-d57841779f4f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 38.1 34.29)
+		(size 35.56 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd1aa967-976b-416d-8c1a-6bc002f5465d")
+		(property "Sheetname" "Motor Controller"
+			(at 38.1 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MC_Sheet.kicad_sch"
+			(at 38.1 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MC"
+				(path "/a5196e7a-0deb-499c-b82a-d57841779f4f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 60.96)
+		(size 34.29 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fbaf3971-1a50-4a45-861c-6b47681738bc")
+		(property "Sheetname" "Power & Signals"
+			(at 39.37 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "P_N_S.kicad_sch"
+			(at 39.37 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MC"
+				(path "/a5196e7a-0deb-499c-b82a-d57841779f4f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
